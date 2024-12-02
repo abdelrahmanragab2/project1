@@ -1,0 +1,22 @@
+# Node modules
+/node_modules/
+
+# Build output directory
+/dist/
+
+# LESS compiled CSS
+/dist/styles/*.css
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# IDE configurations
+.vscode/
+.idea/
+
+# Environment files
+.env
