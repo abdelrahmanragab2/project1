@@ -1,22 +1,25 @@
-# Node modules
+# Node.js dependencies
 /node_modules/
 
-# Build output directory
-/dist/
-
-# LESS compiled CSS
-/dist/styles/*.css
-
-# System files
-.DS_Store
-Thumbs.db
-
+# Output directories
+/public/styles/
+  
 # Log files
 *.log
 
-# IDE configurations
+# npm-debug files
+npm-debug.log*
+
+# OS-specific files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Vercel deployment
+.vercel/
+
+# IDE/Editor specific files
 .vscode/
 .idea/
 
-# Environment files
+# Environment variable files
 .env
