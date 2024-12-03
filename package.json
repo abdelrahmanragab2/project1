@@ -27,7 +27,6 @@
     "tslib": "^2.8.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "lessc ./styles/main.less dist/styles/main.css",
     "watch": "less-watch-compiler ./styles dist/styles"
   },
