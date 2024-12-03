@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Gilroy";
-  src: url("../../assets/fontsGilroy-Medium.ttf") format("truetype");
+  src: url("../assets/fonts/Gilroy-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url("../../assets/fontsGilroy-Bold.ttf") format("truetype");
+  src: url("../assets/fonts/Gilroy-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
@@ -148,7 +148,7 @@ button:hover {
 /* header */
 header {
   min-height: 100vh;
-  background: url("../../assets/images/header.png"), linear-gradient(to right, #0505059d 30%, #ecdfdf 80%);
+  background: url("../assets/images/header.png"), linear-gradient(to right, #0505059d 30%, #ecdfdf 80%);
   background-position: center, center;
   background-blend-mode: multiply;
   background-size: cover, cover;
@@ -366,7 +366,7 @@ label {
 }
 .contact {
   min-height: 100vh;
-  background: url("../../assets/images/section-background.png"), rgba(41, 40, 40);
+  background: url("../assets/images/section-background.png"), rgba(41, 40, 40);
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
